@@ -100,3 +100,46 @@
     background-color: lightgrey;
     color: rgb(13, 19, 33);
 }
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 80px auto;
+}
+.obj-container{
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 90px;
+    border-radius: 16px;
+}
+.obj-title{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* obj section */
+.card-obj{
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-obj-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.btn-learn-more{
+    background: transparent;
+    padding: 10px 16px;
+    cursor: pointer;
+    border: 2px solid rgba(13, 19, 33, 0.7);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 0.7);
+    margin-top: 12px;
+}
